@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="way">
+        <item>买卖</item>
+        <item>租借</item>
+        <item>互换</item>
+    </string-array>
+    <string-array name="price">
+        <item>10元以内</item>
+        <item>10~20元</item>
+        <item>20~30元</item>
+        <item>30~40元</item>
+        <item>40~50元</item>
+        <item>50元以上</item>
+    </string-array>
+    <string-array name="kind">
+        <item>文学</item>
+        <item>医学</item>
+        <item>经管</item>
+        <item>计算机/网络</item>
+        <item>工业技术</item>
+        <item>建筑</item>
+        <item>心理学</item>
+        <item>哲学/宗教</item>
+        <item>军事/政治</item>
+        <item>法律</item>
+        <item>社会科学</item>
+        <item>历史/文化</item>
+        <item>自然科学</item>
+        <item>工具书</item>
+        <item>英文原版</item>
+    </string-array>
+    <string-array name="school">
+        <item>中山大学</item>
+        <item>华南理工大学</item>
+        <item>广州大学</item>
+        <item>广州中医药大学</item>
+        <item>广东工业大学</item>
+        <item>广东外语外贸大学</item>
+        <item>华南师范大学</item>
+        <item>广东美术学院</item>
+        <item>星海音乐学院</item>
+        <item>广东药科大学</item>
+    </string-array>
+</resources>

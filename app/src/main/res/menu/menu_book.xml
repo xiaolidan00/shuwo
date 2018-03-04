@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.shuwoapp.home.HomeBook">
+    <item android:id="@+id/action_cart"
+        android:title="加入购物车"
+        android:icon="@drawable/cart"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/action_bill"
+        android:title="订单"
+        android:icon="@drawable/note"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"/>
+
+</menu>

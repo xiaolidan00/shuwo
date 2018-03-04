@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/w"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/im_home"
+            style="@style/menudraw"
+            android:contentDescription="@string/shuwo" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            style="@style/menu"
+            android:text="@string/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/im_love"
+            style="@style/menudraw"
+            android:contentDescription="@string/shuwo" />
+
+        <TextView
+            android:id="@+id/tv_love"
+            style="@style/menu"
+            android:text="@string/love" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/im_user"
+            style="@style/menudraw"
+            android:contentDescription="@string/shuwo" />
+
+        <TextView
+            android:id="@+id/tv_user"
+            style="@style/menu"
+            android:text="@string/user" />
+    </LinearLayout>
+
+
+</LinearLayout>

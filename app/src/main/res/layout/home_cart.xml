@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g"
+    android:orientation="vertical"
+    tools:context="com.shuwoapp.home.HomeCart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="购物车"
+            android:textColor="@color/t1"
+            android:textSize="24sp" />
+
+
+        <ListView
+            android:id="@+id/lv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/w" />
+
+        <Button
+            android:id="@+id/bt_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_black_d"
+            android:padding="8dp"
+            android:text="@string/deal_cart_order"
+            android:textColor="@color/w"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
+

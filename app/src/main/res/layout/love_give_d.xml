@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shuwoapp.love.LoveGiveD">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/im_gived"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@drawable/icon_add"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/donate_give_book"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_gived_book"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="text"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deadline"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_gived_time"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="text"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/bt_give_declare"
+            android:layout_width="160dp"
+            android:layout_height="56dp"
+            android:layout_gravity="right"
+            android:layout_margin="8dp"
+            android:background="@drawable/bt_black_d"
+            android:text="发布"
+            android:textColor="@color/w"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shuwoapp.love.LoveWantG">
+
+    <include
+        layout="@layout/love_charity_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/im_wantg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/bt_wantg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_black_d"
+        android:text="我要此书"
+        android:textColor="@color/w"
+        android:textSize="16sp" />
+</LinearLayout>

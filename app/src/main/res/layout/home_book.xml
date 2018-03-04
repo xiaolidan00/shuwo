@@ -1,0 +1,236 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g"
+    android:orientation="vertical"
+    tools:context="com.shuwoapp.home.HomeBook">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/w"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/im_book"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:contentDescription="@string/app_name" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/w"
+            android:padding="4dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="方式"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_book_way"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="价格：￥"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_book_deal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/donate_need_school"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_school"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/w"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/deal_book_detial"
+            android:textColor="@color/t0"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/w"
+            android:padding="8dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出版社："
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_publisher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出版时间："
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_booktime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="作者："
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_auther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开本："
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_booksize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="原定价：￥"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ISBN编码："
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
+

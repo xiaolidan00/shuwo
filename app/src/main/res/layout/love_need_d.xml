@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shuwoapp.love.LoveNeedD">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="8dp"
+            android:padding="8dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:dividerPadding="8dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/donate_need_book"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_needd_book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="text"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:dividerPadding="8dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deadline"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_needd_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="text"
+                    android:textColor="@color/t0"
+                    android:textSize="16sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bt_black_e"
+            android:gravity="center"
+            android:text="@string/donate_need_reason"
+            android:textColor="@color/w"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ed_needd_reason"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="text"
+            android:textColor="@color/t0"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_need_declare"
+            android:layout_width="160dp"
+            android:layout_height="56dp"
+            android:layout_gravity="right"
+            android:background="@drawable/bt_black_d"
+            android:text="发布"
+            android:textColor="@color/w"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

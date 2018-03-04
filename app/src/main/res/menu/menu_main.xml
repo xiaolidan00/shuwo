@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_more"
+        android:title="@string/set"
+        android:icon="@drawable/more"
+        android:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/action_login"
+                android:title="@string/login_land"
+                android:icon="@drawable/auser" />
+    <item android:id="@+id/action_register"
+        android:title="@string/login_register"
+        android:icon="@drawable/pen" />
+    <item android:id="@+id/action_set"
+        android:title="@string/set"
+        android:icon="@drawable/set" />
+            <item android:id="@+id/action_share"
+                android:title="分享"
+                android:icon="@drawable/qq" />
+    <item android:id="@+id/action_out"
+        android:title="@string/out"
+        android:icon="@drawable/out" />
+        </menu>
+    </item>
+
+</menu>

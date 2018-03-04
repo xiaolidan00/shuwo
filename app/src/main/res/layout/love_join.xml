@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shuwoapp.love.LoveJoin">
+
+    <TextView
+        android:id="@+id/tv_join"
+        android:layout_width="match_parent"
+        android:background="@drawable/bt_white_d"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_black_d"
+        android:text="参加活动"
+        android:textColor="@color/w"
+        android:textSize="16sp" />
+</LinearLayout>

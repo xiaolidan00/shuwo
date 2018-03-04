@@ -1,0 +1,124 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    tools:context="com.shuwoapp.home.HomeKind">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/w"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_kind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="书类"
+            android:textColor="@color/t1"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_choosekind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/kind"
+            android:prompt="@string/choosekind" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/w"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text="价格范围"
+            android:textColor="@color/t1"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_chooseprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/price"
+            android:prompt="@string/chooseprice" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/w"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text="方式"
+            android:textColor="@color/t1"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_chooseway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/way" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/w"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text="学校"
+            android:textColor="@color/t1"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_chooseschool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/school" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/search_kind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circlew"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/search" />
+
+</TableLayout>

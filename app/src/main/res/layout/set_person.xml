@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g"
+    android:orientation="vertical"
+    tools:context="com.shuwoapp.set.SetRegister">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/im_set"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_set_userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/b700"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <include
+            layout="@layout/set_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/set_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/w"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/photo" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="实名认证照"
+                android:textColor="@color/t0"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/set_agree"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/w"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/book1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/set_protocol"
+                android:textColor="@color/t0"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/set_notebox"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/w"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="留言箱"
+                android:textColor="@color/t0"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_set_out"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@drawable/bt_black_a"
+                android:text="@string/set_out"
+                android:textColor="@color/w"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bt_set_save"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@drawable/bt_black_a"
+                android:text="保存"
+                android:textColor="@color/w"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="b100">#91a7ff</color>
+    <color name="b500">#5677fc</color>
+    <color name="b">#c0fbef</color>
+    <color name="b1">#00a8ec</color>
+    <color name="b700">#455ede</color>
+    <color name="w">#ffffff</color>
+    <color name="g100">#f5f5f5</color>
+    <color name="g500">#9e9e9e</color>
+    <color name="g700">#616161</color>
+    <color name="t0">#87000000</color>
+    <color name="t1">#54000000</color>
+    <color name="t2">#26000000</color>
+    <color name="tr">#00000000</color>
+    <color name="editText">#AAAAAA</color>
+    <color name="blue">#008dff</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="g">#eeeeee</color>
+    <color name="c1">#70000000</color>
+    <color name="c2">#50000000</color>
+    <color name="y">#ffff00</color>
+</resources>
